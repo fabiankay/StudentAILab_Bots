@@ -1,7 +1,7 @@
 {
-  "name": "node",
+  "name": "NodeJSBot",
   "version": "0.0.0",
-  "description": "NodeJS Bot",
+  "description": "NodeJS Bot for Microsoft Student AI Lab",
   "main": "app.js",
   "author": {
     "name": "fabiankay"
