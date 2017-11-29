@@ -1,0 +1,13 @@
+{
+  "name": "node",
+  "version": "0.0.0",
+  "description": "NodeJS Bot",
+  "main": "app.js",
+  "author": {
+    "name": "fabiankay"
+  },
+  "dependencies": {
+    "botbuilder": "^3.12.0",
+    "restify": "^6.3.4"
+  }
+}
