@@ -22,7 +22,7 @@ module.exports = [
         var selection = result.response.entity;
         switch (selection) {
             case DialogLabels.Food:
-                return session.beginDialog('orderFood');
+                return session.beginDialog('orderFood'); // adds orderFood Dialog to the stack
             case DialogLabels.Table:
                 return session.beginDialog('reserveTable');
         }

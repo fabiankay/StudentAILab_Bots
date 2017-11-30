@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodeJSBot", "NodeJSBot.njsproj", "{BA36AD54-A27B-45CE-8084-424D2C68BEDD}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "MyFirstBot", "..\MyFirstBot\MyFirstBot.njsproj", "{7CF0B3EA-62E9-4736-B1AE-1E0E0E407DF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,12 @@ Global
 		{BA36AD54-A27B-45CE-8084-424D2C68BEDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA36AD54-A27B-45CE-8084-424D2C68BEDD}.Run|Any CPU.ActiveCfg = Run|Any CPU
 		{BA36AD54-A27B-45CE-8084-424D2C68BEDD}.Run|Any CPU.Build.0 = Run|Any CPU
+		{7CF0B3EA-62E9-4736-B1AE-1E0E0E407DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF0B3EA-62E9-4736-B1AE-1E0E0E407DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF0B3EA-62E9-4736-B1AE-1E0E0E407DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF0B3EA-62E9-4736-B1AE-1E0E0E407DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF0B3EA-62E9-4736-B1AE-1E0E0E407DF2}.Run|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF0B3EA-62E9-4736-B1AE-1E0E0E407DF2}.Run|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

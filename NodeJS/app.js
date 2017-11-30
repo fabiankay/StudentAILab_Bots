@@ -1,5 +1,5 @@
-var restify = require('restify'); // To create an API endpoint
 var builder = require('botbuilder'); // Framework to handle Bot Interactions
+var restify = require('restify'); // To create an API endpoint
 
 // Setup Restify Server
 var server = restify.createServer();
@@ -16,7 +16,7 @@ var connector = new builder.ChatConnector({
 // Listen for messages from users 
 server.post('/api/messages', connector.listen());
 
-// Initialize the bot
+// Root Dialog - Initialize the bot
 var bot = new builder.UniversalBot(connector, require('./dialogs/root_choice'));
 
 /*
