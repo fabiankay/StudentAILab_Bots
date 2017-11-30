@@ -33,7 +33,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="code.js" />
     <Compile Include="dialogs\root_choice.js" />
     <Compile Include="dialogs\root_echo.js" />
     <Compile Include="dialogs\order.js" />
